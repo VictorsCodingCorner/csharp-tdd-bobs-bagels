@@ -29,7 +29,7 @@ namespace tdd_bobs_bagels.CSharp.Main
         private List<BagleType> bagleBasket;
 
         //Max number of items in baset
-        private int basketSize;
+        private int maxBasketSize;
 
         //Corrent number of items in basket
         private int currentBasketSize;
@@ -41,7 +41,7 @@ namespace tdd_bobs_bagels.CSharp.Main
         {
 
             bagleBasket = new List<BagleType>();
-            basketSize = 5;
+            maxBasketSize = 5;
             currentBasketSize = 0;
         }
 
@@ -53,7 +53,7 @@ namespace tdd_bobs_bagels.CSharp.Main
 
         public bool addBagle(BagleType b)
         {
-            if (basketSize <= currentBasketSize)
+            if (maxBasketSize <= currentBasketSize)
             {
                 return false;
             }
@@ -78,10 +78,11 @@ namespace tdd_bobs_bagels.CSharp.Main
             }
         }
 
-        public int getBasketSize() { return basketSize; }
+        public int getMaxBasketSize() { return maxBasketSize; }
+
         public int getCurrentBasketSize() { return currentBasketSize; }
 
-        public void setBasketSize(int newBasketSize) { basketSize = newBasketSize; }
+        public void setBasketSize(int newBasketSize) { maxBasketSize = newBasketSize; }
 
     }
 }

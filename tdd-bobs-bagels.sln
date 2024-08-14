@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tdd-bobs-bagels.CSharp.Main
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "csharp-tdd-bobs-bagels.tests", "csharp-tdd-bobs-bagels.tests\csharp-tdd-bobs-bagels.tests.csproj", "{34FADA27-F7C6-4A96-BDDF-23C04E4EAAF0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModelFolder", "DomainModelFolder", "{26051AE2-EE4B-4789-9BD1-CED61399632D}"
+	ProjectSection(SolutionItems) = preProject
+		DomainModel.md = DomainModel.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

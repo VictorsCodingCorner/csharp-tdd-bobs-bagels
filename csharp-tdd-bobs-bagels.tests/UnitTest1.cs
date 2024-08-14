@@ -83,7 +83,7 @@ public class Tests
     {
         Core core = new Core();
         core.setBasketSize(10);
-        Assert.That(core.getBasketSize() == 10);
+        Assert.That(core.getMaxBasketSize() == 10);
     }
 
 
