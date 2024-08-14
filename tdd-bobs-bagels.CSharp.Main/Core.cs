@@ -39,7 +39,6 @@ namespace tdd_bobs_bagels.CSharp.Main
         /// </summary>
         public Core()
         {
-
             bagleBasket = new List<BagleType>();
             maxBasketSize = 5;
             currentBasketSize = 0;
